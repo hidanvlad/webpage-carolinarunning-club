@@ -1,11 +1,5 @@
 # Carolina Running Club Website
 
-<<<<<<< codex/create-website-for-carolina-running-club-6fb2hh
-A polished, responsive landing page for Carolina Running Club — a welcoming social running club in Alba Iulia, Romania.
-=======
-A polished, responsive landing page for Carolina Running Club — a welcoming social running club for every pace.
->>>>>>> main
-
 ## What is included
 
 - Full-screen brand hero with primary join and Instagram calls to action
