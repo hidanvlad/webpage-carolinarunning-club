@@ -1,0 +1,12 @@
+# Visual Studio / .NET local files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
