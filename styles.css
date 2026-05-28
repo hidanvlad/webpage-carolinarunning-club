@@ -481,21 +481,6 @@ h3 {
   font-size: 0.86rem;
 }
 
-.inline-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: 1rem;
-}
-
-.inline-links a {
-  color: var(--cream);
-  font-size: 0.9rem;
-  font-weight: 800;
-  text-decoration: underline;
-  text-underline-offset: 0.25rem;
-}
-
 .about {
   align-items: start;
 }
@@ -660,15 +645,6 @@ h3 {
       transparent 20rem
     ),
     rgba(255, 255, 255, 0.08);
-}
-
-.hidden-field {
-  display: none;
-}
-
-code {
-  color: var(--cream);
-  font-weight: 800;
 }
 
 .signup-form {
