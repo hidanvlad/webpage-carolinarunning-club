@@ -1,12 +1,17 @@
 # Carolina Running Club Website
 
+<<<<<<< codex/create-website-for-carolina-running-club-6fb2hh
 A polished, responsive landing page for Carolina Running Club — a welcoming social running club in Alba Iulia, Romania.
+=======
+A polished, responsive landing page for Carolina Running Club — a welcoming social running club for every pace.
+>>>>>>> main
 
 ## What is included
 
 - Full-screen brand hero with primary join and Instagram calls to action
 - Next-run preview with beginner-friendly details
 - About, values, and “how it works” sections
+<<<<<<< codex/create-website-for-carolina-running-club-6fb2hh
 - Real Alba Iulia schedule for Saturday 9:00 at Obelisc and Wednesday 20:00 at Framm's Coffee
 - Community gallery cards ready for real club photos from `assets/photos`
 - Testimonials / member quote placeholders
@@ -45,6 +50,19 @@ In Visual Studio:
 4. Visual Studio should open <http://localhost:5173> automatically.
 
 ### Option 3: Python preview, only if Python is installed
+=======
+- Weekly run schedule placeholders
+- Community gallery cards ready for real club photos
+- Testimonials / member quote placeholders
+- FAQ for first-time runners
+- Email update form and Instagram link
+- Social preview SVG asset
+- Mobile navigation and responsive layouts
+
+## Local preview
+
+Because this is a static site, you can serve it with any simple static server:
+>>>>>>> main
 
 ```bash
 python3 -m http.server 4173
@@ -52,6 +70,7 @@ python3 -m http.server 4173
 
 Then open <http://localhost:4173>.
 
+<<<<<<< codex/create-website-for-carolina-running-club-6fb2hh
 ## Current club details
 
 - Location: Alba Iulia, Romania
@@ -81,3 +100,15 @@ The C# project is only for local preview. Netlify still deploys the static files
 - Replace placeholder testimonials with real member quotes
 - Add a domain once you choose one
 - Add a WhatsApp invite link if you want it public; otherwise keep WhatsApp shared through Instagram or after runs
+=======
+## Content to customize before launch
+
+Update the placeholder details in `index.html` when the club finalizes them:
+
+- Exact city / neighborhood
+- Meetup location and Google Maps link
+- Regular run days and times
+- Current distances and pace groups
+- Contact email or signup provider
+- Real gallery images and member quotes
+>>>>>>> main
