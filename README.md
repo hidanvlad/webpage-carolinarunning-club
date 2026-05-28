@@ -44,11 +44,7 @@ In Visual Studio:
 3. Press the green Run button or `Ctrl+F5`.
 4. Visual Studio should open <http://localhost:5173> automatically.
 
-### Option 3: Python preview, only if Python is installed
 
-```bash
-python3 -m http.server 4173
-```
 
 Then open <http://localhost:4173>.
 
@@ -90,3 +86,4 @@ The C# project is only for local preview. Netlify still deploys the static files
 - Replace placeholder testimonials with real member quotes later
 - Add a domain once you choose one, likely `carolinarunningclub.ro`
 - Keep WhatsApp private through Instagram DM or after runs unless you decide to publish an invite link
+
