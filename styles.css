@@ -200,6 +200,53 @@ svg {
   background: var(--text);
 }
 
+.update-strip {
+  max-width: var(--max);
+  margin: 6.25rem auto 0;
+  padding: 0.85rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(179, 49, 45, 0.2);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.update-strip div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  color: var(--muted-strong);
+  line-height: 1.4;
+}
+
+.update-strip strong,
+.update-strip a,
+.location-pill {
+  color: var(--cream);
+  font-weight: 900;
+}
+
+.update-strip a {
+  white-space: nowrap;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
+.location-pill {
+  display: inline-flex;
+  width: fit-content;
+  margin: 0 0 1rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  font-size: 0.9rem;
+}
+
 .hero {
   position: relative;
   min-height: 100vh;
@@ -209,7 +256,7 @@ svg {
   gap: 2rem;
   max-width: var(--max);
   margin: 0 auto;
-  padding: 9rem 1.25rem 5rem;
+  padding: 5rem 1.25rem 5rem;
 }
 
 .hero-bg {
@@ -481,6 +528,21 @@ h3 {
   font-size: 0.86rem;
 }
 
+.inline-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.inline-links a {
+  color: var(--cream);
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
 .about {
   align-items: start;
 }
@@ -647,6 +709,15 @@ h3 {
     rgba(255, 255, 255, 0.08);
 }
 
+.hidden-field {
+  display: none;
+}
+
+code {
+  color: var(--cream);
+  font-weight: 800;
+}
+
 .signup-form {
   display: grid;
   gap: 0.9rem;
@@ -724,9 +795,16 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .update-strip {
+    align-items: flex-start;
+    border-radius: 1.25rem;
+    flex-direction: column;
+    margin-top: 5.5rem;
+  }
+
   .hero {
     align-items: start;
-    padding-top: 8rem;
+    padding-top: 4rem;
   }
 
   .schedule,
