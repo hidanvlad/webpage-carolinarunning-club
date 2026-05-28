@@ -5,7 +5,6 @@
 - Full-screen brand hero with primary join and Instagram calls to action
 - Next-run preview with beginner-friendly details
 - About, values, and “how it works” sections
-<<<<<<< codex/create-website-for-carolina-running-club-6fb2hh
 - Real Alba Iulia schedule for Saturday 9:00 at Obelisc and Wednesday 20:00 at Framm's Coffee
 - Community gallery cards ready for real club photos from `assets/photos`
 - Testimonials / member quote placeholders
@@ -18,7 +17,6 @@
 
 ## Local preview
 
-You do **not** need Python to view this site.
 
 ### Option 1: easiest preview
 
