@@ -1,0 +1,68 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 630"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Carolina Running Club social preview</title>
+  <desc id="desc">
+    Dark textured card with Carolina Running Club wordmark and red glow.
+  </desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="100%" r="70%">
+      <stop offset="0" stop-color="#b3312d" stop-opacity="0.9" />
+      <stop offset="0.45" stop-color="#4d1110" stop-opacity="0.65" />
+      <stop offset="1" stop-color="#090808" stop-opacity="1" />
+    </radialGradient>
+    <filter id="noise">
+      <feTurbulence
+        type="fractalNoise"
+        baseFrequency="0.8"
+        numOctaves="3"
+        stitchTiles="stitch"
+      />
+      <feColorMatrix type="saturate" values="0" />
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.16" />
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="#090808" />
+  <rect width="1200" height="630" fill="url(#glow)" />
+  <rect width="1200" height="630" filter="url(#noise)" opacity="0.75" />
+  <text
+    x="600"
+    y="305"
+    text-anchor="middle"
+    fill="#fffaf3"
+    font-family="Georgia, serif"
+    font-size="142"
+    font-weight="700"
+    letter-spacing="-8"
+  >
+    carolina
+  </text>
+  <text
+    x="600"
+    y="390"
+    text-anchor="middle"
+    fill="#fffaf3"
+    font-family="Inter, Arial, sans-serif"
+    font-size="52"
+    font-weight="800"
+    letter-spacing="18"
+  >
+    RUNNING CLUB
+  </text>
+  <text
+    x="600"
+    y="475"
+    text-anchor="middle"
+    fill="#f2e5d5"
+    font-family="Inter, Arial, sans-serif"
+    font-size="30"
+    font-weight="700"
+  >
+    Run Carolina. Stay for the community.
+  </text>
+</svg>
