@@ -1,12 +1,14 @@
 # Carolina Running Club Website
 
+A polished, responsive landing page for Carolina Running Club — a welcoming social running club in Alba Iulia, Romania.
+
 ## What is included
 
 - Full-screen brand hero with primary join and Instagram calls to action
 - Next-run preview with beginner-friendly details
 - About, values, and “how it works” sections
 - Real Alba Iulia schedule for Saturday 9:00 at Obelisc and Wednesday 20:00 at Framm's Coffee
-- Community gallery cards ready for real club photos from `assets/photos`
+- Community gallery cards wired for real club photos from `assets/photos`
 - Testimonials / member quote placeholders
 - FAQ for first-time runners
 - Netlify-ready email update form and Instagram link
@@ -17,6 +19,7 @@
 
 ## Local preview
 
+You do **not** need Python to view this site.
 
 ### Option 1: easiest preview
 
@@ -41,28 +44,10 @@ In Visual Studio:
 3. Press the green Run button or `Ctrl+F5`.
 4. Visual Studio should open <http://localhost:5173> automatically.
 
-### Option 3: Python preview, only if Python is installed
-=======
-- Weekly run schedule placeholders
-- Community gallery cards ready for real club photos
-- Testimonials / member quote placeholders
-- FAQ for first-time runners
-- Email update form and Instagram link
-- Social preview SVG asset
-- Mobile navigation and responsive layouts
 
-## Local preview
-
-Because this is a static site, you can serve it with any simple static server:
->>>>>>> main
-
-```bash
-python3 -m http.server 4173
-```
 
 Then open <http://localhost:4173>.
 
-<<<<<<< codex/create-website-for-carolina-running-club-6fb2hh
 ## Current club details
 
 - Location: Alba Iulia, Romania
@@ -72,35 +57,33 @@ Then open <http://localhost:4173>.
 - Distance: about 3 km or 6 km
 - Pace: all paces welcome
 - Social: regroup before and after the run, then coffee at Framm's
-- Updates: Instagram first, with WhatsApp group support
+- Updates: Instagram first; WhatsApp group kept private through Instagram DM or after runs
 
 ## Netlify deployment
 
-This project is ready for Netlify as a static site:
+This project is ready for Netlify as a static site.
 
-1. Push the repo to GitHub.
-2. Create a new Netlify site from the GitHub repo.
-3. Use the repo root as the publish directory. The included `netlify.toml` sets `publish = "."`.
-4. Netlify will detect the `run-updates` form in `index.html` because it uses `data-netlify="true"`.
-5. After deploy, submit the form once and confirm the submission appears in Netlify Forms.
+### Deploy checklist
+
+1. Push or merge the latest code to GitHub.
+2. Go to <https://app.netlify.com/> and sign in.
+3. Select **Add new site** → **Import an existing project**.
+4. Choose GitHub and select this repository.
+5. Keep the build command empty. This is a static site.
+6. Use the repo root as the publish directory. The included `netlify.toml` sets `publish = "."`.
+7. Deploy the site.
+8. Open the deployed Netlify URL and test the homepage links.
+9. Submit the `run-updates` form once.
+10. In Netlify, open **Forms** and confirm the submission appears.
+11. Add the Netlify URL to the Instagram bio.
+12. When ready, connect the custom domain, for example `carolinarunningclub.ro`.
 
 The C# project is only for local preview. Netlify still deploys the static files from the repo root.
 
 ## Content to customize before launch
 
-- Add approved run photos to `assets/photos` and wire them into the gallery
-- Replace placeholder testimonials with real member quotes
-- Add a domain once you choose one
-- Add a WhatsApp invite link if you want it public; otherwise keep WhatsApp shared through Instagram or after runs
-=======
-## Content to customize before launch
+- Add approved run photos to `assets/photos` using the expected filenames in `assets/photos/README.md`
+- Replace placeholder testimonials with real member quotes later
+- Add a domain once you choose one, likely `carolinarunningclub.ro`
+- Keep WhatsApp private through Instagram DM or after runs unless you decide to publish an invite link
 
-Update the placeholder details in `index.html` when the club finalizes them:
-
-- Exact city / neighborhood
-- Meetup location and Google Maps link
-- Regular run days and times
-- Current distances and pace groups
-- Contact email or signup provider
-- Real gallery images and member quotes
->>>>>>> main

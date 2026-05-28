@@ -15,4 +15,4 @@ Recommended image sizes before committing:
 - Gallery images: 1000–1400px wide, JPG/WebP
 - Keep files optimized so the Netlify site loads quickly on mobile.
 
-After adding photos, update the gallery cards in `index.html` or ask the agent to wire them into the page.
+The homepage gallery is already wired to these four filenames. If your uploaded files have different names, rename/copy the first four approved photos to match the names above.

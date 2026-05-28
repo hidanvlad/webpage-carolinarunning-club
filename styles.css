@@ -321,6 +321,13 @@ h1 span {
   line-height: 1.6;
 }
 
+.ro-copy {
+  color: var(--cream);
+  font-size: 0.96rem;
+  font-weight: 600;
+  line-height: 1.65;
+}
+
 .hero-actions,
 .tag-row,
 .footer-links {
@@ -652,19 +659,39 @@ h3 {
 }
 
 .photo-one {
+  background-image:
+    linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.55)),
+    url("assets/photos/saturday-obelisc-group.jpg");
   background-color: #2b1717;
 }
 
 .photo-two {
+  background-image:
+    linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.55)),
+    url("assets/photos/framms-coffee-after-run.jpg");
   background-color: #3b1814;
 }
 
 .photo-three {
+  background-image:
+    linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.55)),
+    url("assets/photos/wednesday-evening-run.jpg");
   background-color: #171716;
 }
 
 .photo-four {
+  background-image:
+    linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.55)),
+    url("assets/photos/cetate-loop-runners.jpg");
   background-color: #4b1513;
+}
+
+.photo-one,
+.photo-two,
+.photo-three,
+.photo-four {
+  background-position: center;
+  background-size: cover;
 }
 
 .quote-grid blockquote {
